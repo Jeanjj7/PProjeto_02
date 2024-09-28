@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap ');
+
+:root {
+    --Branco: #ffffff;
+    --Amarelo_ouro: #FDC807;
+    --Preto_100: #000000;
+    --Preto_90: #202226;
+}
+
+body{
+    margin: 0px;
+    font-family:'Montserrat';
+
+
+}
+#banner{
+    width: 100%;
+    height: 40vw;
+    background-image: url(imagem/header.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--Branco);
+}
+#mens{
+    width: 350px;
+    text-align: left;
+    margin-top: 10px;
+
+}
+#email{
+    background-color: var(--Branco);
+    color: #000000;
+    text-align: center;
+}
+#baixar{
+    background-color: var(--Amarelo_ouro);
+    color: #000000;
+    text-align: center;
+}
