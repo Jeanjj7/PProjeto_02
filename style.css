@@ -24,6 +24,7 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
+
 }
 
 #mens {
@@ -57,10 +58,12 @@ body {
     color: var(--Branco);
 
 }
+
 #conteinr2 span {
     color: var(--Amarelo_ouro);
 
 }
+
 /*centraliza a div*/
 .caixasA {
     background-color: var(--Preto_90);
@@ -69,6 +72,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+
 }
 
 .caixasB {
@@ -78,25 +83,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    box-shadow: 8px 0px 10px gray;
+
 }
-.tt{
+
+.tt {
 
     font-size: 12px;
     width: 500px;
 
 }
+
 /*centraliza a div*/
 
-.caixasA img{
+.caixasA img {
     width: 10%;
 
 }
 
-.caixasB img{
+.caixasB img {
     width: 10%;
 
-    
+
 }
 
 
@@ -179,6 +187,17 @@ body {
     color: var(--Amarelo_ouro);
 }
 
+#baixar2 {
+    background-color: var(--Amarelo_ouro);
+    width: 70%;
+    padding: 15px;
+    color: var(--Preto_100);
+    font-size: 16px;
+    text-align: center;
+
+}
+
+/**/
 #copyight a {
     color: var(--branco);
     text-shadow: 0 0 10px cyan,
@@ -187,9 +206,57 @@ body {
         0 0 80px cyan;
 
 }
+
 #copyight {
     color: var(--Branco);
     background-color: var(--Preto_100);
     justify-content: center;
     text-align: center;
 }
+
+/**/
+/*tablet*/
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+}
+
+
+/*celular*/
+@media screen and (max-width: 480px) {
+    #mens {
+        width: 90%; 
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #mens h1 {
+        font-size: 24px; 
+        margin-bottom: 10px;
+        line-height: 1.2; 
+    }
+
+    #mens p {
+        font-size: 16px;  
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+
+    #email {
+        width: 100%; 
+        font-size: 14px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    #baixar {
+        background-color: var(--Amarelo_ouro);
+        width: 100%; 
+        padding: 15px;
+        font-size: 16px; 
+        text-align: center;
+        cursor: pointer;
+        border-radius: 5px; 
+    }
+}
+
